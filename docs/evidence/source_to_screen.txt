@@ -1,0 +1,6 @@
+Yellow: PASS — {'risk': 71.8, 'rec': 'Renegotiate price and terms', 'reported': 48, 'matched': 48, 'missing': 0}
+Old Dominion: PASS — {'risk': 5.2, 'rec': 'Proceed', 'reported': 48, 'matched': 48, 'missing': 0}
+Party City: PASS — {'risk': 58.4, 'rec': 'Renegotiate price and terms', 'reported': 48, 'matched': 48, 'missing': 0}
+Diebold Nixdorf: PASS — {'risk': 60.9, 'rec': 'Renegotiate price and terms', 'reported': 44, 'matched': 40, 'missing': 4, 'composite': 4}
+Saia: PASS — {'risk': 4.5, 'rec': 'Proceed', 'reported': 48, 'matched': 48, 'missing': 0}
+EXIT CODE: 0

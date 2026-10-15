@@ -1,0 +1,49 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  backend:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]   # Windows job proves the no-Docker Windows path
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13", cache: pip, cache-dependency-path: backend/requirements-dev.txt }
+      - run: pip install -r backend/requirements-dev.txt
+      - name: Lint
+        run: ruff check backend ml scripts e2e --select E,F,I,B --ignore E501,B008
+      - name: Backend tests (unit, API, governance, end-to-end on real SEC snapshot)
+        working-directory: backend
+        run: python -m pytest -q
+      - name: Agent evaluation quality gate
+        run: python ml/eval/run_eval.py
+      - name: Source-to-screen verification (Yellow and Old Dominion FY2019-FY2022)
+        run: python scripts/verify_source_to_screen.py
+  live-sources:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - run: pip install -r backend/requirements-dev.txt
+      - name: Real-source integration tests (SEC, GLEIF, FRED)
+        working-directory: backend
+        env: { VANTAGE_LIVE_TESTS: "1", VANTAGE_SEC_USER_AGENT: "Vantage DD CI ci@example.com" }
+        run: python -m pytest -q tests/test_live_sources.py
+      - name: Independent SEC reconciliation (live companyconcept vs app) + self-test
+        env: { VANTAGE_SEC_USER_AGENT: "Vantage DD CI ci@example.com" }
+        run: |
+          python scripts/independent_sec_reconciliation.py
+          python scripts/independent_sec_reconciliation.py --self-test
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: frontend/package-lock.json }
+      - run: npm ci
+        working-directory: frontend
+      - run: npx tsc -b --noEmit && npm test && npm run build
+        working-directory: frontend

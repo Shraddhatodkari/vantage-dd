@@ -1,0 +1,4 @@
+reported rows 240, derived rows 230, live requests 65, discrepancies 0
+EXIT CODE: 0
+SELF-TEST: discrepancy detected as expected
+SELF-TEST EXIT CODE: 0

@@ -1,0 +1,28 @@
+# One-click deploy on Render (https://render.com/deploy). Push this repo to GitHub, then open
+# https://render.com/deploy?repo=https://github.com/<you>/vantage-dd  and Render reads this file.
+services:
+  - type: web
+    name: vantage-dd
+    runtime: docker
+    dockerfilePath: deploy/optional-container/Dockerfile
+    dockerContext: .
+    plan: starter            # 512 MB is enough in offline/baseline mode; the free plan also works but sleeps when idle
+    healthCheckPath: /healthz
+    envVars:
+      - key: VANTAGE_ENV
+        value: prod          # public deployment: prod config is validated at start-up (no demo users, secure cookies)
+      - key: VANTAGE_COOKIE_SECURE
+        value: "true"
+      - key: VANTAGE_DEMO_MODE
+        value: "false"
+      - key: VANTAGE_JWT_SECRET
+        generateValue: true
+      # create the first administrator from the Render shell: python scripts/manage.py create-admin --email ... --name ...
+      - key: VANTAGE_CORS_ORIGINS
+        value: '["https://vantage-dd.onrender.com"]'
+      - key: VANTAGE_LLM_PROVIDER
+        value: offline       # switch to anthropic and add VANTAGE_ANTHROPIC_API_KEY to enable LLM refinement
+      - key: VANTAGE_ANTHROPIC_API_KEY
+        sync: false
+      - key: VANTAGE_MLFLOW_TRACKING_URI
+        value: sqlite:////tmp/mlflow.db

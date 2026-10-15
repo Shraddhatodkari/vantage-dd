@@ -1,0 +1,29 @@
+# Minimal Kubernetes manifests (EKS / AKS / GKE). Secrets come from an external secret store.
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: vantage-api, labels: { app: vantage-api } }
+spec:
+  replicas: 1          # MUST stay 1: the audit hash-chain lock and rate limiter are in-process
+  strategy: { type: Recreate }   # never two API processes at once during a rollout
+  selector: { matchLabels: { app: vantage-api } }
+  template:
+    metadata:
+      labels: { app: vantage-api }
+      annotations: { prometheus.io/scrape: "true", prometheus.io/path: /metrics, prometheus.io/port: "8000" }
+    spec:
+      securityContext: { runAsNonRoot: true, runAsUser: 10001 }
+      containers:
+        - name: api
+          image: ghcr.io/your-org/vantage-dd:latest
+          ports: [{ containerPort: 8000 }]
+          envFrom: [{ secretRef: { name: vantage-secrets } }, { configMapRef: { name: vantage-config } }]
+          readinessProbe: { httpGet: { path: /readyz, port: 8000 }, periodSeconds: 10 }
+          livenessProbe: { httpGet: { path: /healthz, port: 8000 }, periodSeconds: 20 }
+          resources: { requests: { cpu: 250m, memory: 512Mi }, limits: { cpu: "1", memory: 1Gi } }
+          securityContext: { allowPrivilegeEscalation: false, readOnlyRootFilesystem: false }
+---
+apiVersion: v1
+kind: Service
+metadata: { name: vantage-api }
+spec: { selector: { app: vantage-api }, ports: [{ port: 80, targetPort: 8000 }] }
+# No HorizontalPodAutoscaler: horizontal scaling needs DB-level locking first (see docs/FINAL_RELEASE_REPORT.md).

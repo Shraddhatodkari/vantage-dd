@@ -1,0 +1,30 @@
+Windows scripts executed under PowerShell 7.4.6 on Linux (path shims for 5 backslash arguments). NOT Windows itself.
+
+== setup.ps1
+==> upgrade pip
+==> install Python packages
+==> create .env (only if missing)
+==> install front-end packages
+==> build front end
+==> check installation
+doctor: OK
+==> create new database (never upgrades an existing one)
+==> check configuration
+Setup complete. Start the app with:  powershell -ExecutionPolicy Bypass -File scripts\windows\start.ps1
+exit 0
+
+== setup.ps1 with a deliberately broken requirements file
+FAILED: install Python packages (exit code 1). Setup stopped; nothing else was changed.
+exit 1
+
+== test.ps1
+PASS  backend tests
+PASS  AI evaluation
+PASS  source-to-screen (5 companies)
+PASS  front-end type check
+PASS  front-end tests
+ALL CHECKS PASSED
+exit 0
+
+== start.ps1
+home 200, favicon 200, unknown API 404, login 200, deals without session 401, password in log 0

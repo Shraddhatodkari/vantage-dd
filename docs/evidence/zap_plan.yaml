@@ -1,0 +1,27 @@
+env:
+  contexts:
+    - name: vantage
+      urls: ["http://127.0.0.1:8790"]
+      includePaths: ["http://127.0.0.1:8790.*"]
+      excludePaths: ["http://127.0.0.1:8790/api/v1/auth/logout.*"]
+  parameters: {failOnError: false, progressToStdout: true}
+jobs:
+  - type: replacer
+    parameters: {deleteAllRules: true}
+    rules:
+      - {description: session, matchType: req_header, matchString: Cookie, replacementString: "vantage_access=<session cookie, redacted>; vantage_csrf=<csrf, redacted>"}
+      - {description: csrf, matchType: req_header, matchString: X-CSRF-Token, replacementString: "<csrf, redacted>"}
+  - type: openapi
+    parameters: {apiUrl: "http://127.0.0.1:8790/openapi.json", targetUrl: "http://127.0.0.1:8790"}
+  - type: spider
+    parameters: {url: "http://127.0.0.1:8790/", maxDuration: 3}
+  - type: passiveScan-wait
+    parameters: {maxDuration: 5}
+  - type: activeScan
+    parameters: {context: vantage, maxScanDurationInMins: 20, maxRuleDurationInMins: 3, threadPerHost: 4}
+  - type: passiveScan-wait
+    parameters: {maxDuration: 5}
+  - type: report
+    parameters: {template: traditional-json, reportDir: "/tmp/claude-0/-home-claude/d447420b-43fa-5117-8ee2-9982284162f3/scratchpad/zapw/out", reportFile: zap.json}
+  - type: report
+    parameters: {template: traditional-md, reportDir: "/tmp/claude-0/-home-claude/d447420b-43fa-5117-8ee2-9982284162f3/scratchpad/zapw/out", reportFile: zap.md}

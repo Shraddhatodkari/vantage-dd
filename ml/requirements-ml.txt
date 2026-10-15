@@ -1,0 +1,10 @@
+# GPU fine-tuning stack (LoRA / QLoRA). Install on a CUDA machine or Google Colab.
+torch>=2.5
+transformers>=4.57
+peft>=0.17
+datasets>=4.0
+accelerate>=1.10
+bitsandbytes>=0.48 ; platform_system == "Linux"
+sentencepiece
+mlflow>=3.5
+scikit-learn

@@ -1,0 +1,38 @@
+# Full production-like stack:  docker compose -f infra/docker-compose.yml up --build
+name: vantage-dd
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment: { POSTGRES_USER: vantage, POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in your shell or .env}", POSTGRES_DB: vantage }
+    volumes: [pgdata:/var/lib/postgresql/data, ./postgres-init.sql:/docker-entrypoint-initdb.d/init.sql:ro]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U vantage"], interval: 5s, retries: 10 }
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v3.5.0
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:////mlflow/mlflow.db --artifacts-destination /mlflow/artifacts
+    volumes: [mlflow:/mlflow]
+    ports: ["127.0.0.1:5000:5000"]   # local only: MLflow has no authentication
+
+  api:
+    build: { context: ../../.., dockerfile: deploy/optional-container/Dockerfile }
+    env_file: [../.env]
+    environment:
+      VANTAGE_DATABASE_URL: "postgresql+psycopg://vantage:${POSTGRES_PASSWORD}@postgres:5432/vantage"
+      VANTAGE_MLFLOW_TRACKING_URI: http://mlflow:5000
+      VANTAGE_STORAGE_DIR: /data/storage
+    volumes: [storage:/data]
+    depends_on: { postgres: { condition: service_healthy }, mlflow: { condition: service_started } }
+    ports: ["127.0.0.1:8000:8000"]   # put an HTTPS reverse proxy in front; do not expose plain HTTP
+  # The MCP server is local-only (stdio, acts as one configured user, no network authentication): not deployed here.
+
+  prometheus:
+    image: prom/prometheus:v3.0.1
+    volumes: [./prometheus.yml:/etc/prometheus/prometheus.yml:ro]
+    ports: ["127.0.0.1:9090:9090"]
+
+  grafana:
+    image: grafana/grafana:11.3.1
+    ports: ["127.0.0.1:3000:3000"]
+    environment: { GF_SECURITY_ADMIN_PASSWORD: "${GRAFANA_ADMIN_PASSWORD:?set GRAFANA_ADMIN_PASSWORD}" }
+
+volumes: { pgdata: {}, mlflow: {}, storage: {} }

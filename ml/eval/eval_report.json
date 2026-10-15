@@ -1,0 +1,147 @@
+{
+  "summary": {
+    "issue_recall": 1.0,
+    "rejection_rate": 0.0,
+    "clean_critical_fp": 0,
+    "prompt_version": "2026.10.2",
+    "methodology": "risk-v4/metrics-v3",
+    "golden_version": "2026.10.4",
+    "blind_expectations_met": "3/3"
+  },
+  "gates": {
+    "issue_recall": 0.9,
+    "max_rejection_rate": 0.1,
+    "clean_critical_fp": 0
+  },
+  "passed": true,
+  "cases": [
+    {
+      "case": "Project Northwind (illustrative)",
+      "kind": "illustrative",
+      "status": "completed",
+      "risk_score": 92.3,
+      "in_band": true,
+      "missed": [],
+      "accepted": 33,
+      "rejected": 0,
+      "rejected_titles": [],
+      "critical": 8,
+      "latency_ms": 175
+    },
+    {
+      "case": "Project Helios (illustrative)",
+      "kind": "illustrative",
+      "status": "completed",
+      "risk_score": 88.9,
+      "in_band": true,
+      "missed": [],
+      "accepted": 24,
+      "rejected": 0,
+      "rejected_titles": [],
+      "critical": 6,
+      "latency_ms": 98
+    },
+    {
+      "case": "Yellow Corporation — FY2022 credit review",
+      "kind": "verified_real_seen",
+      "status": "completed",
+      "risk_score": 71.8,
+      "in_band": true,
+      "missed": [],
+      "accepted": 18,
+      "rejected": 0,
+      "rejected_titles": [],
+      "critical": 1,
+      "latency_ms": 199
+    },
+    {
+      "case": "Old Dominion Freight Line — FY2022 credit review",
+      "kind": "verified_real_heldout",
+      "status": "completed",
+      "risk_score": 5.2,
+      "in_band": true,
+      "missed": [],
+      "accepted": 3,
+      "rejected": 0,
+      "rejected_titles": [],
+      "critical": 0,
+      "latency_ms": 173
+    },
+    {
+      "case": "Aurora (clean illustrative control)",
+      "kind": "illustrative_control",
+      "status": "completed",
+      "risk_score": 6.0,
+      "in_band": true,
+      "missed": [],
+      "accepted": 4,
+      "rejected": 0,
+      "rejected_titles": [],
+      "critical": 0,
+      "latency_ms": 69
+    }
+  ],
+  "notes": "verified_real cases use SEC EDGAR data. The Yellow rules were written after reading that filing (not a blind test). Old Dominion was NOT used while writing rules and is the held-out real case.",
+  "blind_benchmark": {
+    "policy": "Blind real-company cases: no risk rule, threshold or extraction rule may be changed in response to their results. They are REPORTED, not release-gating: three companies measure predictive skill, they do not validate it, and gating on them would invite fitting the rules to the answers. The only gating property is that each analysis completes. Outcome notes describe what happened AFTER the cut-off and are never shown to the application.",
+    "results": [
+      {
+        "case": "Party City Holdco — FY2021 credit review",
+        "expected": "elevated",
+        "status": "completed",
+        "risk_score": 58.4,
+        "recommendation": "Renegotiate price and terms",
+        "critical": 2,
+        "expectation_met": true,
+        "findings": [
+          "FIN.CASH_DECLINE",
+          "FIN.COVERAGE_WEAK",
+          "FIN.LEVERAGE_HIGH",
+          "FIN.MATURITY_WALL",
+          "FIN.NEGATIVE_FCF",
+          "FIN.NET_LOSS",
+          "FIN.PROFILE",
+          "FIN.RECURRING_LOSSES",
+          "FIN.THIN_MARGIN",
+          "RED.COVERAGE_GAP.market_strategist"
+        ],
+        "outcome_after_cutoff": "Filed for Chapter 11 on 17 Jan 2023, about 11 months after the FY2021 10-K (filed 28 Feb 2022)"
+      },
+      {
+        "case": "Diebold Nixdorf — FY2022 credit review",
+        "expected": "elevated",
+        "status": "completed",
+        "risk_score": 60.9,
+        "recommendation": "Renegotiate price and terms",
+        "critical": 3,
+        "expectation_met": true,
+        "findings": [
+          "FIN.COVERAGE_WEAK",
+          "FIN.GOING_CONCERN",
+          "FIN.NEGATIVE_EBITDA_WITH_DEBT",
+          "FIN.NET_LOSS",
+          "FIN.PIK_INTEREST",
+          "FIN.PROFILE",
+          "FIN.RECEIVABLES_OUTPACING",
+          "FIN.RECURRING_LOSSES",
+          "RED.COVERAGE_GAP.market_strategist"
+        ],
+        "outcome_after_cutoff": "Filed a prepackaged Chapter 11 on 1 Jun 2023, about 2.5 months after the FY2022 10-K (filed 16 Mar 2023)"
+      },
+      {
+        "case": "Saia — FY2022 credit review",
+        "expected": "low",
+        "status": "completed",
+        "risk_score": 4.5,
+        "recommendation": "Proceed",
+        "critical": 0,
+        "expectation_met": true,
+        "findings": [
+          "FIN.PROFILE",
+          "RED.COVERAGE_GAP.market_strategist"
+        ],
+        "outcome_after_cutoff": "No default; continued operating normally (healthy control)"
+      }
+    ]
+  }
+}

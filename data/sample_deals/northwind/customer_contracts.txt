@@ -1,0 +1,11 @@
+SUMMARY OF MATERIAL CUSTOMER CONTRACTS — NORTHWIND LOGISTICS (DATA ROOM FOLDER 4.2)
+
+Contract 4.2.1 — Master Services Agreement with MegaMart Retail Corp.
+MegaMart Retail accounted for 38% of FY2025 revenue. The agreement includes a termination for convenience clause allowing MegaMart to terminate on 90 days' written notice without penalty. The agreement contains a most-favoured-nation pricing clause requiring Northwind to offer MegaMart pricing no less favourable than any other customer.
+The agreement also contains an assignment clause: the contract may not be assigned, including by operation of law or change of control, without MegaMart's prior written consent.
+
+Contract 4.2.2 — Logistics Agreement with FreshCo Foods.
+FreshCo accounted for 11% of FY2025 revenue. Three-year term expiring December 2026; renewal under negotiation. Contains an auto-renewal clause for one-year periods unless either party gives 60 days notice.
+
+Contract 4.2.3 — Top 10 customers combined represent 71% of FY2025 revenue.
+Payment terms for MegaMart were extended from 45 days to 75 days in Q2 FY2025 as part of the renewal.

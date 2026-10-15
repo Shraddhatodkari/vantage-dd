@@ -1,0 +1,6 @@
+SPONSOR BANK & PAYMENT FACILITATOR AGREEMENT — HELIOS PAYMENTS (EXCERPT)
+
+Section 9.2 Termination. The Sponsor Bank may terminate this Agreement immediately if the Payment Facilitator's chargeback ratio exceeds 1.0% for three consecutive months, or upon failure to maintain a valid PCI DSS Attestation of Compliance.
+Section 11.4 Reserve. The Sponsor Bank may require a rolling reserve of up to 10% of processed volume if risk thresholds are breached.
+Section 14.1 Change of Control. Any change of control requires the Sponsor Bank's prior written consent; failure to obtain consent permits termination.
+Section 6.3 Liability. The Payment Facilitator is fully liable for all sub-merchant chargebacks, fines and network assessments.

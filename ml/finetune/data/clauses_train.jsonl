@@ -1,0 +1,360 @@
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "the Company shall deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "the Service Provider is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "Invoices are payable within 30 days of receipt by the Purchaser.", "label": "benign", "template": "benign:6"}
+{"text": "Notwithstanding anything to the contrary, without prejudice to other rights, the Buyer may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "Notwithstanding anything to the contrary, the parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "Any acquisition of control of Licensor by a third party shall constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "the Vendor shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "the Vendor will deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "Notwithstanding anything to the contrary, licensor is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "Notwithstanding anything to the contrary, during the Term, Licensor shall exclusively supply the Buyer and shall not supply any competitor of the Buyer.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "This Agreement may be executed in counterparts, each of which is deemed an original.", "label": "benign", "template": "benign:9"}
+{"text": "the Buyer shall purchase exclusively from the Service Provider and shall not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "The prices charged to the Customer shall at all times be the lowest prices charged by the Supplier to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "NOTWITHSTANDING ANYTHING TO THE CONTRARY, THE SUPPLIER SHALL INDEMNIFY ACME CORP FOR ALL LOSSES OF WHATEVER NATURE, WITHOUT ANY CAP OR LIMITATION.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "The parties shall meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "Notwithstanding anything to the contrary, all notices will be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "Notwithstanding anything to the contrary, the Supplier warrants that the prices charged to the Customer are no higher than those offered to any other customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "the Buyer shall purchase exclusively from the Company and shall not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "the Company shall not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of Licensee.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "Notwithstanding anything to the contrary, nothing in this Agreement limits the liability of the Seller, which shall be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "the Customer agrees to purchase all of its requirements for the Products solely from Licensor.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "Notwithstanding anything to the contrary, all notices shall be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "the Seller is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "the Customer may terminate this Agreement for convenience on 30 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "If the Service Provider is acquired, merges with another entity, or sells a controlling stake, Licensee may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "This Agreement may be executed in counterparts, each of which is deemed an original.", "label": "benign", "template": "benign:9"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "If the Seller is acquired, merges with another entity, or sells a controlling stake, Licensee may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "This Agreement shall be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "This Agreement shall be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "Notwithstanding anything to the contrary, the Distributor agrees to purchase all of its requirements for the Products solely from the Seller.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "the Vendor is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "THE COMPANY SHALL NOT PROVIDE SIMILAR SERVICES TO ANY OTHER PARTY IN THE TERRITORY DURING THE TERM.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Licensee reserves the right to discontinue the services at its sole discretion on 60 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "the Seller shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "the Service Provider warrants that the prices charged to the Purchaser are no higher than those offered to any other customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "A merger, consolidation or sale of substantially all assets of the Vendor requires the prior approval of the Buyer.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "the Seller shall be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "If the Service Provider offers lower pricing to any third party, it shall extend the same pricing to the Client retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "Payment shall be made by bank transfer to the account notified by the Company.", "label": "benign", "template": "benign:1"}
+{"text": "Licensor will be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "Each party shall bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "Notwithstanding anything to the contrary, any acquisition of control of the Vendor by a third party will constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "the Seller warrants that the prices charged to the Distributor are no higher than those offered to any other customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "If Licensor is acquired, merges with another entity, or sells a controlling stake, Licensee may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "the Distributor reserves the right to discontinue the services at its sole discretion on 45 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "Notwithstanding anything to the contrary, the Supplier shall deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "Notwithstanding anything to the contrary, no assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "The limitations of liability in this Agreement will not apply to the Vendor's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "Notwithstanding anything to the contrary, the Company may not assign this Agreement without the prior written consent of the Client.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "The parties will meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "Notwithstanding anything to the contrary, the Service Provider shall deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "If the Seller offers lower pricing to any third party, it shall extend the same pricing to the Customer retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "Notwithstanding anything to the contrary, this Agreement may be executed in counterparts, each of which is deemed an original.", "label": "benign", "template": "benign:9"}
+{"text": "Any acquisition of control of the Service Provider by a third party will constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "the Vendor shall offer Licensee most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "All notices shall be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "No assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "If more than 50% of the voting shares of the Supplier are acquired by a third party, the Client may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "Notwithstanding anything to the contrary, all notices shall be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "the Distributor may terminate at any time without cause and without liability upon 90 days written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "LICENSOR SHALL OFFER ACME CORP MOST FAVOURED CUSTOMER PRICING, NO LESS FAVOURABLE THAN ANY OTHER CUSTOMER RECEIVES.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "The parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "No assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "the Customer may terminate this Agreement for convenience on 60 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "Notwithstanding anything to the contrary, the Customer may terminate this Agreement for convenience on 45 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "A merger, consolidation or sale of substantially all assets of Licensor requires the prior approval of the Buyer.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "the Service Provider shall not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of Licensee.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "NOTWITHSTANDING ANYTHING TO THE CONTRARY, THE COMPANY WARRANTS THAT THE PRICES CHARGED TO THE CLIENT ARE NO HIGHER THAN THOSE OFFERED TO ANY OTHER CUSTOMER.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "the Distributor may terminate this Agreement for convenience on 30 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "Any transfer of a controlling interest in the Company will entitle Acme Corp to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "Notwithstanding anything to the contrary, if more than 50% of the voting shares of the Service Provider are acquired by a third party, the Client may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "Notwithstanding anything to the contrary, the Customer may terminate at any time without cause and without liability upon 60 days written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "The prices charged to the Client shall at all times be the lowest prices charged by the Company to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "the Client shall purchase exclusively from Licensor and shall not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "The parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "During the Term, the Company shall exclusively supply the Distributor and shall not supply any competitor of the Distributor.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "The prices charged to the Buyer will at all times be the lowest prices charged by Licensor to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "If more than 50% of the voting shares of Licensor are acquired by a third party, Licensee may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "Nothing in this Agreement limits the liability of the Supplier, which will be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "Notwithstanding anything to the contrary, upon a change of control of Licensor, the Customer may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "Licensee reserves the right to discontinue the services at its sole discretion on 30 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "the Service Provider shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "the Supplier shall be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "the Company will not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of the Purchaser.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "NOTWITHSTANDING ANYTHING TO THE CONTRARY, THIS AGREEMENT MAY BE EXECUTED IN COUNTERPARTS, EACH OF WHICH IS DEEMED AN ORIGINAL.", "label": "benign", "template": "benign:9"}
+{"text": "Notwithstanding anything to the contrary, headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "Any transfer of a controlling interest in the Seller shall entitle the Client to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "Notwithstanding anything to the contrary, without prejudice to other rights, the Buyer may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "This Agreement shall not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "Notwithstanding anything to the contrary, the Seller shall be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "THIS AGREEMENT MAY BE EXECUTED IN COUNTERPARTS, EACH OF WHICH IS DEEMED AN ORIGINAL.", "label": "benign", "template": "benign:9"}
+{"text": "This Agreement shall be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "Notwithstanding anything to the contrary, upon a change of control of the Vendor, Licensee may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "During the Term, the Service Provider will exclusively supply Acme Corp and will not supply any competitor of Acme Corp.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "The limitations of liability in this Agreement shall not apply to the Supplier's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "Without prejudice to other rights, the Buyer may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "Nothing in this Agreement limits the liability of the Seller, which shall be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "the Company will be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "All notices shall be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "During the Term, Licensor will exclusively supply the Distributor and will not supply any competitor of the Distributor.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "the Company warrants that the prices charged to Acme Corp are no higher than those offered to any other customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "the Distributor agrees to purchase all of its requirements for the Products solely from the Vendor.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "If the Supplier grants any other customer more favourable prices, the Distributor will be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "Notwithstanding anything to the contrary, acme Corp reserves the right to discontinue the services at its sole discretion on 30 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "The parties will meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "the Seller shall offer the Customer most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "the Client agrees to purchase all of its requirements for the Products solely from the Seller.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "Invoices are payable within 30 days of receipt by Licensee.", "label": "benign", "template": "benign:6"}
+{"text": "Payment shall be made by bank transfer to the account notified by the Service Provider.", "label": "benign", "template": "benign:1"}
+{"text": "The prices charged to Licensee shall at all times be the lowest prices charged by the Vendor to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "the Service Provider shall indemnify Licensee for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "THE DISTRIBUTOR MAY TERMINATE AT ANY TIME WITHOUT CAUSE AND WITHOUT LIABILITY UPON 45 DAYS WRITTEN NOTICE.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "the Vendor shall indemnify Acme Corp for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "the Distributor reserves the right to discontinue the services at its sole discretion on 45 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "A merger, consolidation or sale of substantially all assets of the Service Provider requires the prior approval of the Distributor.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "If the Supplier grants any other customer more favourable prices, the Purchaser shall be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "Each party will bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "Notwithstanding anything to the contrary, the parties shall meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "This Agreement shall be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "Notwithstanding anything to the contrary, if more than 50% of the voting shares of the Company are acquired by a third party, the Distributor may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "This Agreement will be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "A merger, consolidation or sale of substantially all assets of the Supplier requires the prior approval of the Buyer.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "If more than 50% of the voting shares of Licensor are acquired by a third party, Licensee may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "Nothing in this Agreement limits the liability of the Supplier, which shall be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "During the Term, the Vendor shall exclusively supply the Purchaser and shall not supply any competitor of the Purchaser.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "If the Vendor offers lower pricing to any third party, it shall extend the same pricing to Acme Corp retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "Notwithstanding anything to the contrary, the limitations of liability in this Agreement shall not apply to the Seller's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "the Buyer reserves the right to discontinue the services at its sole discretion on 90 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "the Vendor shall deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "This Agreement may be executed in counterparts, each of which is deemed an original.", "label": "benign", "template": "benign:9"}
+{"text": "Notwithstanding anything to the contrary, no assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "Licensor shall provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "Licensee may terminate this Agreement for convenience on 45 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "Notwithstanding anything to the contrary, the Vendor is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "the Customer may end this Agreement at any time, for any reason, upon 90 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "the Purchaser may terminate at any time without cause and without liability upon 60 days written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "Either party may cancel this contract without cause by giving 120 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "the Service Provider shall not provide similar services to any other party in the Territory during the Term.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Each party shall bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "During the Term, the Service Provider shall exclusively supply the Distributor and shall not supply any competitor of the Distributor.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "PAYMENT SHALL BE MADE BY BANK TRANSFER TO THE ACCOUNT NOTIFIED BY LICENSOR.", "label": "benign", "template": "benign:1"}
+{"text": "Should the Vendor come under the control of a competitor of the Purchaser, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "the Supplier shall be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "Notwithstanding anything to the contrary, the prices charged to Acme Corp shall at all times be the lowest prices charged by the Service Provider to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "the Distributor may end this Agreement at any time, for any reason, upon 90 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "Notwithstanding anything to the contrary, if the Seller grants any other customer more favourable prices, the Buyer shall be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "Any acquisition of control of the Service Provider by a third party shall constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "Notwithstanding anything to the contrary, the Supplier may not assign this Agreement without the prior written consent of the Buyer.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "Should the Service Provider come under the control of a competitor of Licensee, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "Without prejudice to other rights, the Buyer may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "A merger, consolidation or sale of substantially all assets of Licensor requires the prior approval of the Customer.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "This Agreement shall not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "Notwithstanding anything to the contrary, invoices are payable within 45 days of receipt by Licensee.", "label": "benign", "template": "benign:6"}
+{"text": "Notwithstanding anything to the contrary, each party shall bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "Either party may cancel this contract without cause by giving 90 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "the Customer shall purchase exclusively from the Seller and shall not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "THE CLIENT MAY TERMINATE AT ANY TIME WITHOUT CAUSE AND WITHOUT LIABILITY UPON 60 DAYS WRITTEN NOTICE.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "Any transfer of a controlling interest in the Service Provider shall entitle the Buyer to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "the Distributor shall purchase exclusively from the Company and shall not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "the Seller may not assign this Agreement without the prior written consent of Acme Corp.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "Invoices are payable within 120 days of receipt by the Client.", "label": "benign", "template": "benign:6"}
+{"text": "Notwithstanding anything to the contrary, the Company shall provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "No assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "Notwithstanding anything to the contrary, the Supplier shall indemnify Acme Corp for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "If the Vendor grants any other customer more favourable prices, the Buyer will be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "the Vendor shall indemnify the Purchaser for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "The prices charged to the Buyer will at all times be the lowest prices charged by the Service Provider to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "Notwithstanding anything to the contrary, the Seller may not assign this Agreement without the prior written consent of the Buyer.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "The parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "NEITHER PARTY MAY TRANSFER ITS RIGHTS OR OBLIGATIONS HEREUNDER WITHOUT THE OTHER PARTY'S WRITTEN APPROVAL.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "the Company is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "This Agreement shall be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "The prices charged to the Distributor will at all times be the lowest prices charged by the Service Provider to any customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "All notices shall be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "Nothing in this Agreement limits the liability of Licensor, which will be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "the Service Provider grants the Purchaser exclusive rights in the Territory and shall not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "Notwithstanding anything to the contrary, licensor will provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "Notwithstanding anything to the contrary, nothing in this Agreement limits the liability of the Vendor, which shall be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "Notwithstanding anything to the contrary, the parties shall meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "If the Seller offers lower pricing to any third party, it will extend the same pricing to the Purchaser retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "the Distributor may terminate this Agreement for convenience on 90 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "the Seller shall indemnify the Customer for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "the Supplier shall indemnify the Buyer for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "the Service Provider may not assign this Agreement without the prior written consent of the Purchaser.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "Notwithstanding anything to the contrary, the Supplier grants Acme Corp exclusive rights in the Territory and shall not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "Notwithstanding anything to the contrary, should the Service Provider come under the control of a competitor of the Purchaser, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "Notwithstanding anything to the contrary, the Seller shall not provide similar services to any other party in the Territory during the Term.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Notwithstanding anything to the contrary, the limitations of liability in this Agreement shall not apply to the Supplier's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "Licensee may terminate at any time without cause and without liability upon 45 days written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "Notwithstanding anything to the contrary, should the Supplier come under the control of a competitor of the Customer, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "Notwithstanding anything to the contrary, the Purchaser shall purchase exclusively from the Vendor and shall not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "Licensee agrees to purchase all of its requirements for the Products solely from the Vendor.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "NOTWITHSTANDING ANYTHING TO THE CONTRARY, THIS AGREEMENT MAY BE EXECUTED IN COUNTERPARTS, EACH OF WHICH IS DEEMED AN ORIGINAL.", "label": "benign", "template": "benign:9"}
+{"text": "Either party may cancel this contract without cause by giving 120 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "No assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "Should the Company come under the control of a competitor of the Distributor, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "Notwithstanding anything to the contrary, the Distributor may end this Agreement at any time, for any reason, upon 45 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "the Customer may end this Agreement at any time, for any reason, upon 45 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "A merger, consolidation or sale of substantially all assets of the Vendor requires the prior approval of the Client.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "Notwithstanding anything to the contrary, the Supplier shall indemnify the Distributor for all losses of whatever nature, without any cap or limitation.", "label": "unlimited_liability", "template": "unlimited_liability:3"}
+{"text": "Notwithstanding anything to the contrary, the Company will deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "Notwithstanding anything to the contrary, invoices are payable within 60 days of receipt by the Distributor.", "label": "benign", "template": "benign:6"}
+{"text": "THE VENDOR WILL NOT PROVIDE SIMILAR SERVICES TO ANY OTHER PARTY IN THE TERRITORY DURING THE TERM.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "During the Term, the Service Provider shall exclusively supply the Buyer and shall not supply any competitor of the Buyer.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "If the Company grants any other customer more favourable prices, the Distributor shall be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "the Service Provider will provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "the Seller shall not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of the Customer.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "If the Service Provider grants any other customer more favourable prices, the Purchaser will be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "the Customer may terminate this Agreement for convenience on 30 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "the Vendor shall provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "Any acquisition of control of Licensor by a third party shall constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "This Agreement shall be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "Each party shall bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "Any transfer of a controlling interest in the Seller shall entitle Acme Corp to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "the Company grants the Customer exclusive rights in the Territory and will not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "Acme Corp will purchase exclusively from the Company and will not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "Notwithstanding anything to the contrary, the parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "Licensor may not assign this Agreement without the prior written consent of the Customer.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "the Buyer may terminate this Agreement for convenience on 30 days' notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:0"}
+{"text": "If the Vendor is acquired, merges with another entity, or sells a controlling stake, the Buyer may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "Acme Corp reserves the right to discontinue the services at its sole discretion on 90 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "Payment shall be made by bank transfer to the account notified by the Supplier.", "label": "benign", "template": "benign:1"}
+{"text": "This Agreement shall not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "the Supplier warrants that the prices charged to the Client are no higher than those offered to any other customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "The parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "Notwithstanding anything to the contrary, either party may cancel this contract without cause by giving 60 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "Licensor will offer the Client most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "This Agreement shall not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "the Vendor shall be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "Any transfer of a controlling interest in Licensor shall entitle the Buyer to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "the Supplier will not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of the Distributor.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "the Service Provider grants Licensee exclusive rights in the Territory and will not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "the Service Provider shall provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "the Vendor may not assign this Agreement without the prior written consent of Licensee.", "label": "assignment_restriction", "template": "assignment_restriction:0"}
+{"text": "Notwithstanding anything to the contrary, all notices will be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "Licensor shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "Notwithstanding anything to the contrary, payment shall be made by bank transfer to the account notified by the Vendor.", "label": "benign", "template": "benign:1"}
+{"text": "the Client may end this Agreement at any time, for any reason, upon 90 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "This Agreement shall not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "The parties will meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "A merger, consolidation or sale of substantially all assets of Licensor requires the prior approval of the Purchaser.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "Each party will bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "If Licensor is acquired, merges with another entity, or sells a controlling stake, the Customer may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "The limitations of liability in this Agreement shall not apply to the Service Provider's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "the Service Provider will not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of the Customer.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "If Licensor offers lower pricing to any third party, it will extend the same pricing to Licensee retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "This Agreement may be executed in counterparts, each of which is deemed an original.", "label": "benign", "template": "benign:9"}
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "the Supplier will offer Acme Corp most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "Any transfer of a controlling interest in the Vendor shall entitle the Buyer to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "The limitations of liability in this Agreement shall not apply to Licensor's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "THE PRICES CHARGED TO THE BUYER SHALL AT ALL TIMES BE THE LOWEST PRICES CHARGED BY LICENSOR TO ANY CUSTOMER.", "label": "most_favoured_nation", "template": "most_favoured_nation:1"}
+{"text": "Notwithstanding anything to the contrary, invoices are payable within 120 days of receipt by the Distributor.", "label": "benign", "template": "benign:6"}
+{"text": "the Service Provider is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "Upon a change of control of Licensor, the Distributor may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "the Purchaser may end this Agreement at any time, for any reason, upon 90 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "Without prejudice to other rights, the Purchaser may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "the Seller shall offer the Purchaser most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "Licensor shall offer the Distributor most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "Nothing in this Agreement limits the liability of the Vendor, which will be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "Any acquisition of control of the Seller by a third party shall constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "the Service Provider will provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "the Supplier shall not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of the Distributor.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "If more than 50% of the voting shares of the Company are acquired by a third party, the Distributor may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "If the Company is acquired, merges with another entity, or sells a controlling stake, Acme Corp may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "Neither party may transfer its rights or obligations hereunder without the other party's written approval.", "label": "assignment_restriction", "template": "assignment_restriction:3"}
+{"text": "Notwithstanding anything to the contrary, nothing in this Agreement limits the liability of the Seller, which will be unlimited.", "label": "unlimited_liability", "template": "unlimited_liability:1"}
+{"text": "Either party may cancel this contract without cause by giving 30 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "Notwithstanding anything to the contrary, this Agreement will not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "Any transfer of a controlling interest in the Company shall entitle the Buyer to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "Notwithstanding anything to the contrary, licensee agrees to purchase all of its requirements for the Products solely from the Vendor.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "Any acquisition of control of the Vendor by a third party shall constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "Without prejudice to other rights, the Distributor may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "Notwithstanding anything to the contrary, if the Vendor grants any other customer more favourable prices, the Purchaser will be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "This Agreement will not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "the Company shall offer Licensee most favoured customer pricing, no less favourable than any other customer receives.", "label": "most_favoured_nation", "template": "most_favoured_nation:0"}
+{"text": "Notwithstanding anything to the contrary, all notices shall be in writing and delivered to the addresses set out in Schedule 1.", "label": "benign", "template": "benign:4"}
+{"text": "Licensee agrees to purchase all of its requirements for the Products solely from the Service Provider.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "Upon a change of control of Licensor, the Customer may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "If more than 50% of the voting shares of the Seller are acquired by a third party, Licensee may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "the Seller will be fully liable for all losses, without limitation of liability.", "label": "unlimited_liability", "template": "unlimited_liability:0"}
+{"text": "the Vendor will provide the services with reasonable skill and care.", "label": "benign", "template": "benign:0"}
+{"text": "the Company is liable for all chargebacks, fines and penalties without any cap on liability.", "label": "unlimited_liability", "template": "unlimited_liability:2"}
+{"text": "The limitations of liability in this Agreement will not apply to the Company's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "Licensor grants the Buyer exclusive rights in the Territory and will not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "The parties will meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "Should Licensor come under the control of a competitor of the Client, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "If the Service Provider is acquired, merges with another entity, or sells a controlling stake, the Distributor may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "Each party shall bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "Notwithstanding anything to the contrary, the Company shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "the Company grants the Distributor exclusive rights in the Territory and shall not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "Licensor shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "the Buyer may terminate at any time without cause and without liability upon 90 days written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "Either party may cancel this contract without cause by giving 90 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "the Company shall not provide similar services to any other party in the Territory during the Term.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Notwithstanding anything to the contrary, acme Corp may terminate at any time without cause and without liability upon 60 days written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:1"}
+{"text": "the Distributor will purchase exclusively from the Company and will not source the Products from any other supplier.", "label": "exclusivity", "template": "exclusivity:1"}
+{"text": "Notwithstanding anything to the contrary, the parties will cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "If the Company grants any other customer more favourable prices, the Client will be entitled to the same prices.", "label": "most_favoured_nation", "template": "most_favoured_nation:2"}
+{"text": "the Service Provider shall not provide similar services to any other party in the Territory during the Term.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Invoices are payable within 30 days of receipt by the Distributor.", "label": "benign", "template": "benign:6"}
+{"text": "The limitations of liability in this Agreement will not apply to Licensor's obligations, which are uncapped.", "label": "unlimited_liability", "template": "unlimited_liability:4"}
+{"text": "The parties shall meet quarterly to review service levels and continuous improvement initiatives.", "label": "benign", "template": "benign:11"}
+{"text": "Either party may cancel this contract without cause by giving 60 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "If the Company is acquired, merges with another entity, or sells a controlling stake, the Client may terminate.", "label": "change_of_control", "template": "change_of_control:1"}
+{"text": "This Agreement will be governed by the laws of the State of New York.", "label": "benign", "template": "benign:3"}
+{"text": "Upon a change of control of the Service Provider, the Purchaser may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "the Customer agrees to purchase all of its requirements for the Products solely from the Supplier.", "label": "exclusivity", "template": "exclusivity:4"}
+{"text": "Should the Vendor come under the control of a competitor of Acme Corp, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "the Company shall not delegate or transfer this Agreement, whether voluntarily or by operation of law, absent consent of Acme Corp.", "label": "assignment_restriction", "template": "assignment_restriction:4"}
+{"text": "IF THE COMPANY OFFERS LOWER PRICING TO ANY THIRD PARTY, IT SHALL EXTEND THE SAME PRICING TO LICENSEE RETROACTIVELY.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "UPON A CHANGE OF CONTROL OF THE SUPPLIER, THE BUYER MAY TERMINATE THIS AGREEMENT WITH IMMEDIATE EFFECT.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "During the Term, the Service Provider shall exclusively supply the Buyer and shall not supply any competitor of the Buyer.", "label": "exclusivity", "template": "exclusivity:2"}
+{"text": "the Supplier will maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "Invoices are payable within 45 days of receipt by the Distributor.", "label": "benign", "template": "benign:6"}
+{"text": "If the Company offers lower pricing to any third party, it shall extend the same pricing to the Purchaser retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "Upon a change of control of Licensor, Licensee may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "Upon a change of control of the Seller, Acme Corp may terminate this Agreement with immediate effect.", "label": "change_of_control", "template": "change_of_control:0"}
+{"text": "Any acquisition of control of Licensor by a third party shall constitute a default under this Agreement.", "label": "change_of_control", "template": "change_of_control:2"}
+{"text": "Headings are for convenience only and do not affect interpretation.", "label": "benign", "template": "benign:7"}
+{"text": "Payment shall be made by bank transfer to the account notified by the Vendor.", "label": "benign", "template": "benign:1"}
+{"text": "the Vendor shall maintain insurance with reputable insurers in amounts customary in the industry.", "label": "benign", "template": "benign:10"}
+{"text": "Notwithstanding anything to the contrary, the Seller shall not provide similar services to any other party in the Territory during the Term.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Notwithstanding anything to the contrary, this Agreement will not be assigned or transferred by either party without prior written consent.", "label": "assignment_restriction", "template": "assignment_restriction:1"}
+{"text": "Should the Service Provider come under the control of a competitor of the Customer, this Agreement may be cancelled immediately.", "label": "change_of_control", "template": "change_of_control:6"}
+{"text": "the Vendor shall not provide similar services to any other party in the Territory during the Term.", "label": "exclusivity", "template": "exclusivity:3"}
+{"text": "Payment shall be made by bank transfer to the account notified by the Service Provider.", "label": "benign", "template": "benign:1"}
+{"text": "If more than 50% of the voting shares of the Company are acquired by a third party, the Purchaser may terminate this Agreement.", "label": "change_of_control", "template": "change_of_control:3"}
+{"text": "the Purchaser may end this Agreement at any time, for any reason, upon 120 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "Notwithstanding anything to the contrary, either party may cancel this contract without cause by giving 45 days notice to the other.", "label": "termination_for_convenience", "template": "termination_for_convenience:4"}
+{"text": "the Client reserves the right to discontinue the services at its sole discretion on 90 days prior notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:5"}
+{"text": "THE SERVICE PROVIDER WARRANTS THAT THE PRICES CHARGED TO THE DISTRIBUTOR ARE NO HIGHER THAN THOSE OFFERED TO ANY OTHER CUSTOMER.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "the Service Provider grants the Distributor exclusive rights in the Territory and will not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "Without prejudice to other rights, Licensee may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "Payment will be made by bank transfer to the account notified by the Supplier.", "label": "benign", "template": "benign:1"}
+{"text": "the Supplier shall deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "the Company warrants that the prices charged to Licensee are no higher than those offered to any other customer.", "label": "most_favoured_nation", "template": "most_favoured_nation:3"}
+{"text": "Notwithstanding anything to the contrary, the parties shall cooperate in good faith to resolve any dispute.", "label": "benign", "template": "benign:2"}
+{"text": "the Purchaser may end this Agreement at any time, for any reason, upon 30 days' written notice.", "label": "termination_for_convenience", "template": "termination_for_convenience:3"}
+{"text": "If the Vendor offers lower pricing to any third party, it will extend the same pricing to the Client retroactively.", "label": "most_favoured_nation", "template": "most_favoured_nation:4"}
+{"text": "Any transfer of a controlling interest in the Supplier shall entitle the Purchaser to end this Agreement forthwith.", "label": "change_of_control", "template": "change_of_control:4"}
+{"text": "No assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "No assignment of this Agreement, including by merger or operation of law, is permitted without consent.", "label": "assignment_restriction", "template": "assignment_restriction:2"}
+{"text": "Notwithstanding anything to the contrary, without prejudice to other rights, Licensee may terminate this Agreement for any reason or no reason.", "label": "termination_for_convenience", "template": "termination_for_convenience:2"}
+{"text": "Notwithstanding anything to the contrary, a merger, consolidation or sale of substantially all assets of the Company requires the prior approval of Licensee.", "label": "change_of_control", "template": "change_of_control:5"}
+{"text": "Each party shall bear its own costs in connection with the negotiation of this Agreement.", "label": "benign", "template": "benign:8"}
+{"text": "the Supplier grants the Client exclusive rights in the Territory and will not appoint any other distributor.", "label": "exclusivity", "template": "exclusivity:0"}
+{"text": "Notwithstanding anything to the contrary, the Service Provider will deliver the monthly service report within ten business days after month end.", "label": "benign", "template": "benign:5"}
+{"text": "the Service Provider may not assign this Agreement without the prior written consent of Licensee.", "label": "assignment_restriction", "template": "assignment_restriction:0"}

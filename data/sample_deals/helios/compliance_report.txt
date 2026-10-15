@@ -1,0 +1,8 @@
+HELIOS PAYMENTS — THIRD-PARTY RISK & COMPLIANCE ASSESSMENT (ACQUIRER ONBOARDING REVIEW)
+
+Payment network standing: Helios operates as a payment facilitator for approximately 14,000 sub-merchants, primarily in online travel, nutraceuticals and online gaming.
+The portfolio-level chargeback ratio reached 1.38% in FY2025, above the 1.0% excessive-chargeback threshold used by major card networks. Three sub-merchants alone account for 44% of chargebacks.
+PCI DSS: The Attestation of Compliance expired in June 2025 and the renewal assessment is in progress; two compensating controls were flagged by the QSA.
+AML/KYC: Internal audit sampled 200 sub-merchant files; 31 files (15.5%) lacked beneficial ownership verification. Sanctions screening is performed at onboarding only, not on an ongoing basis.
+Regulatory: Helios holds money transmitter licences in 38 US states; licences in 4 states are pending.
+Data protection: Card data is tokenised; however, a 2025 penetration test identified an unpatched critical vulnerability in the merchant onboarding API, remediated after 47 days.

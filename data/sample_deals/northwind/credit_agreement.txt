@@ -1,0 +1,13 @@
+SENIOR SECURED CREDIT AGREEMENT — NORTHWIND LOGISTICS HOLDINGS, INC. (EXCERPT)
+
+Section 6.12 Financial Covenants.
+(a) Maximum Total Net Leverage Ratio. The Borrower shall not permit the Total Net Leverage Ratio, tested as of the last day of each fiscal quarter, to exceed 3.50 to 1.00.
+(b) Minimum Interest Coverage Ratio. The Borrower shall not permit the ratio of Consolidated EBITDA to Consolidated Interest Expense to be less than 3.00 to 1.00.
+
+Section 8.01 Events of Default. Each of the following shall constitute an Event of Default: (k) a Change of Control shall occur.
+
+Section 2.05(c) Mandatory Prepayment upon Change of Control. Upon the occurrence of a Change of Control, the Borrower shall immediately prepay all outstanding Term Loans together with a prepayment premium of 2.0% of the principal amount prepaid.
+
+Section 7.03 Restricted Payments. The Borrower shall not declare or pay any dividend while the Total Net Leverage Ratio exceeds 3.00 to 1.00.
+
+Maturity Date: March 31, 2028. Interest: SOFR + 425 basis points, floating rate, unhedged.

@@ -1,0 +1,4 @@
+fiscal_year,revenue_musd,cogs_musd,opex_musd,ebitda_musd,depreciation_musd,interest_expense_musd,net_income_musd,total_debt_musd,cash_musd,current_assets_musd,current_liabilities_musd,receivables_musd,operating_cash_flow_musd,capex_musd,processed_volume_busd,chargeback_ratio_pct,fraud_loss_bps
+2023,64.0,38.4,19.2,6.4,2.1,1.2,2.2,22.0,14.5,41.0,30.2,9.8,5.9,3.1,6.1,0.62,7.5
+2024,88.5,54.0,26.1,8.4,2.6,1.9,2.6,31.0,11.0,52.4,44.8,14.1,4.2,4.4,8.4,0.91,9.8
+2025,121.7,77.9,37.8,6.0,3.4,3.1,-0.9,46.0,7.6,63.0,61.5,22.6,-1.8,6.3,11.2,1.38,14.2

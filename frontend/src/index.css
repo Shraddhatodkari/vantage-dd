@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: Inter, system-ui, sans-serif;
+
+  --color-ink-700: #26324f;
+  --color-ink-800: #1a2540;
+  --color-ink-900: #111a2e;
+  --color-ink-950: #0b1220;
+
+  --color-brand-50: #ecfdf5;
+  --color-brand-100: #d1fae5;
+  --color-brand-500: #10b981;
+  --color-brand-600: #059669;
+  --color-brand-700: #047857;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility card {
+  @apply bg-white rounded-xl border border-slate-200 shadow-xs;
+}
+
+@utility btn {
+  @apply inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+@utility btn-primary {
+  @apply btn bg-ink-900 text-white hover:bg-ink-800;
+}
+
+@utility btn-brand {
+  @apply btn bg-brand-600 text-white hover:bg-brand-700;
+}
+
+@utility btn-ghost {
+  @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+}
+
+@utility btn-danger {
+  @apply btn bg-rose-600 text-white hover:bg-rose-700;
+}
+
+@utility input {
+  @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-hidden focus:border-ink-700 focus:ring-2 focus:ring-ink-700/10;
+}
+
+@utility label {
+  @apply mb-1 block text-xs font-medium uppercase tracking-wide text-slate-500;
+}
+
+.prose-memo h1 { @apply text-2xl font-bold text-ink-950 mb-2; }
+.prose-memo h2 { @apply text-lg font-semibold text-ink-900 mt-6 mb-2 border-b border-slate-200 pb-1; }
+.prose-memo h3 { @apply text-sm font-semibold text-ink-900 mt-4; }
+.prose-memo p { @apply text-sm text-slate-700 my-2 leading-relaxed; }
+.prose-memo li { @apply text-sm text-slate-700 ml-5 list-disc my-1; }
+.prose-memo ol li { @apply list-decimal; }
+.prose-memo blockquote { @apply border-l-4 border-slate-200 pl-3 text-xs text-slate-500 my-1 italic; }
+.prose-memo table { @apply text-sm my-2; }
+.prose-memo td, .prose-memo th { @apply border border-slate-200 px-3 py-1; }
+.prose-memo code { @apply text-[11px] bg-slate-100 px-1 rounded-sm; }

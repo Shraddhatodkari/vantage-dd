@@ -1,0 +1,106 @@
+{
+ "version": "2026.10.4",
+ "notes": "verified_real cases use SEC EDGAR data. The Yellow rules were written after reading that filing (not a blind test). Old Dominion was NOT used while writing rules and is the held-out real case.",
+ "cases": [
+  {
+   "name": "Project Northwind (illustrative)",
+   "kind": "illustrative",
+   "must_catch": [
+    "FIN.COVENANT_BREACH.net_leverage_x",
+    "RED.GROWTH_OVERSTATED",
+    "RED.MARGIN_OVERSTATED",
+    "RED.UNDISCLOSED_LITIGATION",
+    "LEG.CUSTOMER_CONCENTRATION",
+    "RED.CONCENTRATION_DENIED",
+    "FIN.RECEIVABLES_OUTPACING",
+    "FIN.CASH_CONVERSION_DECLINE",
+    "LEG.CLAUSE.mandatory_prepayment",
+    "ESG.MATERIAL_WEAKNESS"
+   ],
+   "min_risk_score": 60
+  },
+  {
+   "name": "Project Helios (illustrative)",
+   "kind": "illustrative",
+   "must_catch": [
+    "CMP.CHARGEBACKS",
+    "CMP.PCI_LAPSED",
+    "RED.PCI_CLAIM",
+    "RED.LICENSING_CLAIM",
+    "CMP.KYC_GAPS",
+    "CMP.SANCTIONS",
+    "LEG.CLAUSE.unlimited_liability",
+    "FIN.NEGATIVE_FCF"
+   ],
+   "min_risk_score": 60
+  },
+  {
+   "name": "Yellow Corporation — FY2022 credit review",
+   "kind": "verified_real_seen",
+   "must_catch": [
+    "FIN.MATURITY_WALL",
+    "FIN.LEVERAGE_HIGH",
+    "FIN.COVERAGE_WEAK",
+    "FIN.RECURRING_LOSSES",
+    "FIN.CANNOT_REPAY_IF_ACCELERATED",
+    "FIN.COVENANT_WAIVER_HISTORY",
+    "ESG.PENSION_CRITICAL",
+    "ESG.LABOUR_AGREEMENT_EXPIRY",
+    "FIN.NEGATIVE_FCF"
+   ],
+   "min_risk_score": 55
+  },
+  {
+   "name": "Old Dominion Freight Line — FY2022 credit review",
+   "kind": "verified_real_heldout",
+   "must_catch": [],
+   "max_critical": 0,
+   "max_risk_score": 30
+  },
+  {
+   "name": "Aurora (clean illustrative control)",
+   "kind": "illustrative_control",
+   "path": "ml/eval/fixtures/aurora",
+   "must_catch": [],
+   "max_critical": 0,
+   "max_risk_score": 35
+  }
+ ],
+ "blind_benchmark": {
+  "registered": "2026-10-14, committed before these companies' data was loaded into the application or any analysis was run",
+  "policy": "Blind real-company cases: no risk rule, threshold or extraction rule may be changed in response to their results. They are REPORTED, not release-gating: three companies measure predictive skill, they do not validate it, and gating on them would invite fitting the rules to the answers. The only gating property is that each analysis completes. Outcome notes describe what happened AFTER the cut-off and are never shown to the application.",
+  "expectation_bands": {
+   "elevated": "risk_score >= 55 (recommendation 'Renegotiate price and terms' or stricter)",
+   "low": "risk_score <= 30 and no critical finding"
+  },
+  "cases": [
+   {
+    "name": "Party City Holdco — FY2021 credit review",
+    "cik": "1592058",
+    "fiscal_year": 2021,
+    "sector": "Specialty retail",
+    "expected": "elevated",
+    "outcome_after_cutoff": "Filed for Chapter 11 on 17 Jan 2023, about 11 months after the FY2021 10-K (filed 28 Feb 2022)",
+    "outcome_source": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523009847/d643228dex992.htm"
+   },
+   {
+    "name": "Diebold Nixdorf — FY2022 credit review",
+    "cik": "28823",
+    "fiscal_year": 2022,
+    "sector": "ATM & retail technology",
+    "expected": "elevated",
+    "outcome_after_cutoff": "Filed a prepackaged Chapter 11 on 1 Jun 2023, about 2.5 months after the FY2022 10-K (filed 16 Mar 2023)",
+    "outcome_source": "https://www.sec.gov/Archives/edgar/data/28823/000119312523168545/d495237d8k.htm"
+   },
+   {
+    "name": "Saia — FY2022 credit review",
+    "cik": "1177702",
+    "fiscal_year": 2022,
+    "sector": "Trucking (LTL)",
+    "expected": "low",
+    "outcome_after_cutoff": "No default; continued operating normally (healthy control)",
+    "outcome_source": null
+   }
+  ]
+ }
+}

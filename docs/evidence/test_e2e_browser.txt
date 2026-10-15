@@ -1,0 +1,7 @@
+e2e/test_ui_e2e.py::test_full_workflow PASSED                            [ 25%]
+e2e/test_ui_e2e.py::test_old_dominion_rejection_coverage_and_history PASSED [ 50%]
+e2e/test_ui_e2e.py::test_dashboard_compare_and_no_secrets PASSED         [ 75%]
+e2e/test_ui_e2e.py::test_two_factor_sign_in_and_admin_password_reset PASSED [100%]
+============================== 4 passed in 53.39s ==============================
+EXIT CODE: 0
+secrets in server log (demo password or JWT): 0

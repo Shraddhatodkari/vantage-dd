@@ -1,0 +1,6 @@
+MARKET NOTE — EMBEDDED PAYMENTS & PAYFAC SEGMENT
+
+Embedded payments volume is forecast to grow at an 18% CAGR through 2030.
+Take rates are compressing by 5-10 basis points per year as large platforms internalise payments.
+High-risk verticals (travel, nutraceuticals, gaming) carry chargeback ratios 2-3x the card-not-present average and attract enhanced network monitoring programmes.
+Comparable PayFac transactions have been priced at 3x to 5x revenue for compliant, low-risk portfolios.

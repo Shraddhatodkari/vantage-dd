@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t { font-size: 15px; font-weight: 600; fill: #0b1220; }
+      .s { font-size: 12px; fill: #475569; }
+      .h { font-size: 12px; font-weight: 700; letter-spacing: .08em; fill: #64748b; }
+      .w { font-size: 15px; font-weight: 600; fill: #ffffff; }
+      .ws { font-size: 12px; fill: #cbd5e1; }
+      .ln { stroke: #94a3b8; stroke-width: 1.6; fill: none; marker-end: url(#a); }
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="16" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="1199" height="759" rx="16" fill="none" stroke="#e2e8f0"/>
+
+  <!-- column headers -->
+  <text class="h" x="40" y="44">1 · SOURCES</text>
+  <text class="h" x="280" y="44">2 · INGEST &amp; VERIFY</text>
+  <text class="h" x="560" y="44">3 · MULTI-AGENT ANALYSIS (LANGGRAPH)</text>
+  <text class="h" x="960" y="44">4 · HUMAN DECISION</text>
+
+  <!-- 1 sources -->
+  <g>
+    <rect x="40" y="64" width="200" height="74" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="56" y="94">SEC EDGAR</text>
+    <text class="s" x="56" y="116">10-K filings · XBRL facts</text>
+    <rect x="40" y="152" width="200" height="74" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="56" y="182">GLEIF</text>
+    <text class="s" x="56" y="204">legal-entity identity (LEI)</text>
+    <rect x="40" y="240" width="200" height="74" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="56" y="270">FRED</text>
+    <text class="s" x="56" y="292">interest-rate context</text>
+    <rect x="40" y="328" width="200" height="74" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="56" y="358">Data room uploads</text>
+    <text class="s" x="56" y="380">PDF · DOCX · TXT · CSV</text>
+  </g>
+
+  <!-- 2 ingest & verify -->
+  <g>
+    <rect x="280" y="64" width="240" height="118" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+    <text class="t" x="296" y="94">Source adapters</text>
+    <text class="s" x="296" y="116">retries · rate limits · SHA-256</text>
+    <text class="s" x="296" y="134">snapshots · point-in-time cut-off</text>
+    <text class="s" x="296" y="152">(only data filed before the 10-K date)</text>
+    <rect x="280" y="196" width="240" height="118" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+    <text class="t" x="296" y="226">Filing reconciliation</text>
+    <text class="s" x="296" y="248">every XBRL number located in the</text>
+    <text class="s" x="296" y="266">10-K text after its line label;</text>
+    <text class="s" x="296" y="284">ratios with formula + inputs</text>
+    <rect x="280" y="328" width="240" height="74" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+    <text class="t" x="296" y="358">Guardrails</text>
+    <text class="s" x="296" y="380">PII redaction · injection filter</text>
+  </g>
+  <path class="ln" d="M240 101 H280"/>
+  <path class="ln" d="M240 189 C260 189 260 150 280 150"/>
+  <path class="ln" d="M240 277 C262 277 262 255 280 255"/>
+  <path class="ln" d="M240 365 H280"/>
+
+  <!-- data store -->
+  <rect x="280" y="430" width="240" height="152" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text class="t" x="296" y="460">PostgreSQL / SQLite</text>
+  <text class="s" x="296" y="482">reported &amp; calculated facts</text>
+  <text class="s" x="296" y="500">documents + hybrid RAG index</text>
+  <text class="s" x="296" y="518">findings with evidence</text>
+  <text class="s" x="296" y="536">immutable memo versions</text>
+  <text class="s" x="296" y="554">hash-chained audit log</text>
+  <path class="ln" d="M400 314 V328" />
+  <path class="ln" d="M400 402 V430"/>
+
+  <!-- 3 agents -->
+  <rect x="560" y="64" width="360" height="66" rx="10" fill="#111a2e"/>
+  <text class="w" x="580" y="92">Supervisor</text>
+  <text class="ws" x="580" y="114">plans the review · routes to specialists</text>
+
+  <g>
+    <rect x="560" y="156" width="174" height="62" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="574" y="182">Financial analyst</text>
+    <text class="s" x="574" y="202">leverage · coverage · FCF</text>
+    <rect x="746" y="156" width="174" height="62" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="760" y="182">Legal counsel</text>
+    <text class="s" x="760" y="202">covenants · clauses</text>
+    <rect x="560" y="230" width="174" height="62" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="574" y="256">Market strategist</text>
+    <text class="s" x="574" y="276">industry · rates</text>
+    <rect x="746" y="230" width="174" height="62" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text class="t" x="760" y="256">ESG &amp; compliance</text>
+    <text class="s" x="760" y="276">pensions · labour · KYC</text>
+  </g>
+  <text class="s" x="750" y="146">specialists run in parallel</text>
+  <path class="ln" d="M740 130 V152"/>
+
+  <rect x="560" y="318" width="360" height="62" rx="10" fill="#fff7ed" stroke="#f97316"/>
+  <text class="t" x="580" y="344">Red team</text>
+  <text class="s" x="580" y="364">challenges management claims against the evidence</text>
+  <path class="ln" d="M740 292 V318"/>
+
+  <rect x="560" y="404" width="360" height="82" rx="10" fill="#fef2f2" stroke="#e11d48"/>
+  <text class="t" x="580" y="432">Quality gate</text>
+  <text class="s" x="580" y="452">rejects any finding whose quote or number is not</text>
+  <text class="s" x="580" y="470">in its cited source, or that uses post-cut-off data</text>
+  <path class="ln" d="M740 380 V404"/>
+
+  <rect x="560" y="510" width="360" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text class="t" x="580" y="538">Risk score + coverage report</text>
+  <text class="s" x="580" y="560">points per finding · evidence gaps disclosed</text>
+  <path class="ln" d="M740 486 V510"/>
+
+  <path class="ln" d="M520 470 C542 470 542 187 560 187"/>
+  <path class="ln" d="M520 101 C540 101 540 97 560 97"/>
+
+  <!-- 4 human decision -->
+  <rect x="960" y="64" width="200" height="98" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text class="t" x="976" y="94">Analyst</text>
+  <text class="s" x="976" y="116">reviews findings,</text>
+  <text class="s" x="976" y="134">evidence and gaps;</text>
+  <text class="s" x="976" y="152">submits</text>
+  <rect x="960" y="186" width="200" height="118" rx="10" fill="#111a2e"/>
+  <text class="w" x="976" y="216">Partner</text>
+  <text class="ws" x="976" y="238">approves or rejects</text>
+  <text class="ws" x="976" y="256">with a reason;</text>
+  <text class="ws" x="976" y="274">never the person who</text>
+  <text class="ws" x="976" y="292">ran or submitted it</text>
+  <path class="ln" d="M1060 162 V186"/>
+  <path class="ln" d="M920 546 C940 546 940 113 960 113"/>
+
+  <rect x="960" y="330" width="200" height="98" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+  <text class="t" x="976" y="360">IC memo</text>
+  <text class="s" x="976" y="382">immutable version,</text>
+  <text class="s" x="976" y="400">SHA-256 · .md / .html</text>
+  <path class="ln" d="M1060 304 V330"/>
+  <rect x="960" y="452" width="200" height="130" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text class="t" x="976" y="482">Interfaces</text>
+  <text class="s" x="976" y="504">React dashboard</text>
+  <text class="s" x="976" y="522">REST API (FastAPI)</text>
+  <text class="s" x="976" y="540">MCP server (stdio)</text>
+  <text class="s" x="976" y="558">MLflow evaluation</text>
+
+  <!-- cross-cutting band -->
+  <rect x="40" y="618" width="1120" height="104" rx="12" fill="#0b1220"/>
+  <text class="h" x="64" y="648" style="fill:#94a3b8">CROSS-CUTTING CONTROLS</text>
+  <text class="ws" x="64" y="676">Role-based access (analyst · partner · admin) and deal membership · two-factor sign-in · httpOnly cookies + CSRF · rate limiting</text>
+  <text class="ws" x="64" y="700">Every action in an append-only, hash-chained audit log · real vs illustrative data never mixed · secrets never logged · strict CSP</text>
+</svg>

@@ -1,0 +1,10 @@
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+frontend/dist
+backend/vantage.db
+backend/.vector_index
+backend/.storage
+mlflow.db
+mlruns
+.env

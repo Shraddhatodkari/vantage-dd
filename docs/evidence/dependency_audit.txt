@@ -1,0 +1,11 @@
+== pip-audit (backend/requirements.txt)
+No known vulnerabilities found
+EXIT CODE: 0
+
+== npm audit (production dependencies)
+found 0 vulnerabilities
+EXIT CODE: 0
+
+== npm audit (all, including development tools)
+found 0 vulnerabilities
+EXIT CODE: 0
