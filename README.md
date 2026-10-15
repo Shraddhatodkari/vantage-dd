@@ -5,7 +5,7 @@
 ### Multi-agent AI due diligence on real SEC filings — every number traced to its source, every conclusion signed off by a partner
 
 ![SEC figures verified](https://img.shields.io/badge/SEC%20figures-236%20verified%20·%200%20discrepancies-0b7a55)
-![Tests](https://img.shields.io/badge/tests-160%20backend%20·%2020%20UI%20·%204%20browser-2a78d6)
+![Tests](https://img.shields.io/badge/tests-162%20backend%20·%2020%20UI%20·%204%20browser-2a78d6)
 ![Security](https://img.shields.io/badge/OWASP%20ZAP%20%2B%20Bandit-0%20open%20high%2Fmedium-0b7a55)
 ![Dependencies](https://img.shields.io/badge/npm%20%2B%20pip%20audit-0%20vulnerabilities-0b7a55)
 ![Stack](https://img.shields.io/badge/FastAPI%20·%20LangGraph%20·%20React%20·%20PostgreSQL-334155)
@@ -133,7 +133,7 @@ More: [`ARCHITECTURE`](docs/ARCHITECTURE.md) · [`METHODOLOGY`](docs/METHODOLOGY
 
 | Area | Evidence |
 |---|---|
-| Automated tests | 160 backend (SQLite **and** PostgreSQL 16), 20 frontend, 4 end-to-end browser journeys |
+| Automated tests | 162 backend (SQLite **and** PostgreSQL 16), 20 frontend, 4 end-to-end browser journeys |
 | AI evaluation | Quality gate passed: issue recall 1.00, rejection rate 0.00, 0 critical false positives ([report](docs/evidence/eval_report.json)) |
 | Security scans | Bandit and authenticated OWASP ZAP active scan: 0 open high/medium/low ([summary](docs/evidence/security_scans.md)) |
 | Dependencies | `pip-audit` and `npm audit`: 0 known vulnerabilities |

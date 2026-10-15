@@ -110,3 +110,33 @@ def test_metrics_endpoint_is_not_public_in_production():
                        capture_output=True, text=True, encoding="utf-8", timeout=120)
     assert r.returncode == 0, r.stderr[-2000:]
     assert r.stdout.strip().splitlines()[-1] == "404 404 200"
+
+
+def test_placeholder_or_weak_secrets_are_refused():
+    """A value copied from documentation (e.g. 'REPLACE_WITH_...') is public: the app must refuse to run with it."""
+    import pytest
+    from app.core.config import ConfigError, Settings, validate_settings
+    good = {"env": "dev", "demo_mode": True, "jwt_secret": "k" * 20 + "Q9_r" * 8, "seed_password": "Rand0m#Local-pw"}
+    validate_settings(Settings(**good))                                        # what manage.py setup produces
+    for env in ("dev", "prod"):
+        with pytest.raises(ConfigError, match="placeholder"):
+            validate_settings(Settings(**{**good, "env": env, "demo_mode": env == "dev", "cookie_secure": True,
+                                          "jwt_secret": "REPLACE_WITH_A_LONG_RANDOM_LOCAL_SECRET"}))
+    with pytest.raises(ConfigError, match="placeholder"):
+        validate_settings(Settings(**{**good, "seed_password": "REPLACE_WITH_A_UNIQUE_LOCAL_DEMO_PASSWORD"}))
+    for weak in ("alllowercaseletters", "NoDigitsOrSymbols", "short#1A"):
+        with pytest.raises(ConfigError, match="VANTAGE_SEED_PASSWORD must be"):
+            validate_settings(Settings(**{**good, "seed_password": weak}))
+
+
+def test_env_example_has_no_values_for_secrets_and_is_clean_utf8():
+    from pathlib import Path
+
+    from dotenv import dotenv_values
+    p = Path(__file__).resolve().parents[2] / ".env.example"
+    text = p.read_bytes().decode("utf-8")                                        # strict: fails on broken encoding
+    assert "Ã" not in text and "â€" not in text
+    vals = dotenv_values(p)
+    assert not vals.get("VANTAGE_JWT_SECRET") and not vals.get("VANTAGE_SEED_PASSWORD")
+    assert not vals.get("VANTAGE_SEC_USER_AGENT")                               # no comment text read as a value
+    assert all(not (v or "").lstrip().startswith("#") for v in vals.values())

@@ -93,6 +93,14 @@ class ConfigError(RuntimeError):
     pass
 
 
+_PLACEHOLDER = ("replace_with", "replace-with", "change_me", "changeme", "change-me", "placeholder", "your_", "your-")
+
+
+def looks_like_placeholder(value: str | None) -> bool:
+    v = (value or "").strip().lower()
+    return bool(v) and (any(p in v for p in _PLACEHOLDER) or v.startswith(("<", "#")))
+
+
 def validate_settings(s: Settings) -> list[str]:
     """Return warnings; raise ConfigError for configurations that must never run."""
     errors, warnings = [], []
@@ -114,8 +122,19 @@ def validate_settings(s: Settings) -> list[str]:
     if s.demo_mode and not s.seed_password:
         errors.append("VANTAGE_SEED_PASSWORD is required when VANTAGE_DEMO_MODE=true "
                       "(run `python scripts/manage.py setup`)")
-    if s.demo_mode and s.seed_password and len(s.seed_password) < s.min_password_length:
-        errors.append(f"VANTAGE_SEED_PASSWORD must be at least {s.min_password_length} characters")
+    # template / placeholder text copied from documentation is public: never accept it as a secret
+    if looks_like_placeholder(s.jwt_secret):
+        errors.append("VANTAGE_JWT_SECRET contains placeholder text; run `python scripts/manage.py setup` or set a "
+                      "random value")
+    if s.demo_mode and s.seed_password:
+        if looks_like_placeholder(s.seed_password):
+            errors.append("VANTAGE_SEED_PASSWORD contains placeholder text; run `python scripts/manage.py setup`")
+        import re
+        pw = s.seed_password
+        if len(pw) < s.min_password_length or not (re.search(r"[A-Z]", pw) and re.search(r"[a-z]", pw)
+                                                   and re.search(r"\d", pw) and re.search(r"[^A-Za-z0-9]", pw)):
+            errors.append(f"VANTAGE_SEED_PASSWORD must be at least {s.min_password_length} characters with upper- and "
+                          "lower-case letters, a digit and a symbol (run `python scripts/manage.py setup`)")
     if s.source_mode == "live" and not s.sec_user_agent:
         errors.append('VANTAGE_SEC_USER_AGENT ("Your Name your@email") is required for live SEC access')
     if errors:

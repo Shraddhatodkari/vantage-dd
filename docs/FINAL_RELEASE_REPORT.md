@@ -35,6 +35,7 @@ What changed since 1.1 (all four follow-ups requested after 1.1):
 | 13 | Models and migrations had drifted (two indexes only in migrations) | Declared in the models; new drift test | `test_models_match_migrations_exactly` |
 | 14 | `setup.ps1` continued after a failed `pip`/`npm` step (PowerShell ignores native exit codes); no Node version check | Every step checked; stops with a clear message; Node ≥ 20.19 required | run under PowerShell 7 with a forced failure |
 | 15 | Comparison: series 4–5 had no colour; table forced every company onto the same years | 6-colour palette; each company shows its own four years | `charts.test.ts`, e2e |
+| 16 | Found in the GitHub review (1.2.2): `.env.example` lines of the form `KEY=   # comment` are read by .env parsers as the *value* "# comment", and placeholder text was accepted as a JWT secret / demo password — a copied example file would have run with public credentials | Comments moved to their own lines (all values empty); configuration refuses placeholder or comment-like secrets in every environment and applies the full password policy to the demo password; encoding fixed | `test_placeholder_or_weak_secrets_are_refused`, `test_env_example_has_no_values_for_secrets_and_is_clean_utf8` |
 
 ## 2. Files changed (main ones)
 
@@ -91,8 +92,8 @@ unchanged: Northwind 92.3, Helios 88.9, Yellow 71.8, Old Dominion 5.2, Aurora 6.
 | Check | Result |
 |---|---|
 | Lint (ruff) | 0 issues |
-| Backend, SQLite | **160 passed, 4 skipped** (the 4 = live-source tests, run separately) |
-| Backend, PostgreSQL 16.15 | **160 passed, 4 skipped**; migration round-trip 0001 → 0004 → 0001 → 0004, rows preserved |
+| Backend, SQLite | **162 passed, 4 skipped** (the 4 = live-source tests, run separately) |
+| Backend, PostgreSQL 16.15 | **162 passed, 4 skipped**; migration round-trip 0001 → 0004 → 0001 → 0004, rows preserved |
 | Live sources (real SEC/GLEIF/FRED) | 4 passed |
 | Frontend | TypeScript 0 errors · **20 tests passed** · build OK |
 | Browser end-to-end (Chromium) | **4 passed** (full workflow incl. reject → resubmit → approve v2 → download; audit; dashboard/compare; 2FA + reset journey) · secrets in server log: 0 |
